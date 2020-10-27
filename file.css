@@ -1,0 +1,46 @@
+body {
+   background:  #EFEFBB;
+   background: -webkit-linear-gradient(to right, #F86253,  #F87956);
+   background: linear-gradient(to right, #F86253,  #F87956);
+}
+.logo img {
+   margin-left: 20px;
+   width: 10rem;
+}
+h1 {
+   padding-top: 5rem;
+   letter-spacing: 12px;
+   text-align: center;
+   color: white;
+   font-size: 100px;
+}
+.progress-bar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.light-grey {
+   background-color: rgba(211, 211, 211, 0.295);
+   width: 400px;
+   border-radius: 10px;
+}
+.grey {
+   background-color: white;
+   border-radius: 10px;
+}
+.percentage {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   font-size: smaller;
+   font-weight: bold;
+}
+.note {
+   text-align: center;
+   margin-left: 300px;
+   color: white;
+   width: 800px;
+   padding-top: 4rem;
+   /* letter-spacing: 1px; */
+   text-transform: uppercase;
+}
